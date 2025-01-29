@@ -1,0 +1,70 @@
+Topics Need to cover for UVM
+
+
+What is UVM? Need for a methodology?
+How UVM evolved?
+OVM, AVM, RVM, NVM, eRM
+UVM class library
+Classification of base classes in various categories
+OOP basics
+Encapsulation
+Inheritance
+Polymorphism
+Parameterized classes
+Parameterized macros
+Static properties and static methods
+Abstract classes
+Pure virtual methods
+How above aspect correlates with UVM implementation.
+UVM Class Library, Macros, Utilities
+Detailed overview of important UVM base classes, Macros and Utility classes.
+UVM TB Architecture
+Setting up a UVM based testbench for APB protocol from scratch.
+Significance of uvm_root in UVM based testbenches.
+run_test, how it starts whole TB flow.
+Command line processor
+Reporting classes
+Uvm_report_object
+Uvm_report_handler
+Uvm_report_server
+Detailed examples on use of methods in these classes.
+Objections
+UVM Factory
+Configuration DB, Resource DB
+Detailed usage of both data bases.
+How config_db is related to resource_db?
+Using config_db to change the testbench architecture.
+TLM1.0
+Push
+Pull
+FIFO
+Analysis
+Complex example on AHB to AXI transaction conversion.
+Simulation Phases
+UVM common phases
+Scheduled phases
+Sequences, Sequencers
+Default sequence
+p_sequencer
+m_sequencer
+Test case development
+Different styles of mapping testcase to sequence
+Using default sequence and scheduled phases
+Using sequence start method
+Configuring TB Environment
+Advanced aspects of developing a highly configurable test bench environment.
+Concept of knobs of test case scenario generation
+Using top level parameters to control the overall TB architecture
+Different testbench component coding
+Monitor
+Coverage
+Scoreboard
+Checkers
+Assertions
+Different styles of sequence development
+`uvm_do
+Start_item and finish_item
+Using existing sequences
+Sequence library
+Creating complex test cases using sequence library
+Virtual Sequencer, Virtual sequences

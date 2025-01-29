@@ -1,0 +1,46 @@
+Topics need to cover in AXI protocol
+
+Protocol basics
+Protocol overview
+Protocol features
+AMBA protocol overview
+AXI Protocol basics
+SOC Architecture – Significance of AXI protocol
+AXI based system architecture
+Correlating AXI with APB protocol
+Ports(signals) required for AXI protocol
+AXI Channels
+Write & Read Channels
+Handshaking using valid and ready
+Write Channel Signals – Address, Data and Response
+Read Channel Signals – Address and Data
+Timing diagrams
+How to draw the timing diagrams?
+Write Transaction Timing Diagram
+Read Transaction Timing Diagram
+AXI transaction analysis for big endian and little endian architecture
+Wrap transactions – write and read
+Narrow transfers
+Data bus and strobe relation
+Aligned and unaligned transfers
+AXI signal encoding
+Responses in AXI
+Locked and exclusive transfers
+Overlapping, out of order, interleaved txs
+Interconnect role in out of order transaction
+Significance of ID in AXI protocol
+AXI Channel handshake dependency
+Cacheable and bufferable transactions
+Protected transactions
+AXI VIP and UVC development
+Need for UVC?
+Different types of UVC’s
+UVC usage in module and SOC verification
+Where Passive UVC are used?
+UVC integration in to TB
+AXI UVC architecture
+AXI Transaction Definition
+AXI UVC coding
+AXI TB simulation and wave form analysis
+AXI UVC integration
+AXI scoreboard coding

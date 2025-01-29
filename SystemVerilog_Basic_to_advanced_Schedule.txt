@@ -1,0 +1,161 @@
+Topics Need to cover for SystemVerilog
+
+
+
+Functional Verification overview
+Test bench architecture
+Test bench components
+Test bench development : Modularity, Reusability
+Understanding Functional Verification flow
+System Verilog Course overview
+System Verilog language features
+Verilog for TB development
+Verilog Language constructs and shortcomings
+operators, data types
+Literals
+Operators – How things change from Verilog
+Data types – Integer based, string
+Arrays
+Arrays
+Array classification
+Packed and Unpacked Arrays
+Static and Dynamic Arrays
+Multi dimensional Arrays
+Dynamic Arrays
+Associative Arrays
+Queue
+Array of Queues in scoreboard implementation, other complex declarations
+Object Oriented Programming
+Basics of OOP – Class, Object, handle
+Class elements – Properties, methods, constraints
+Properties – 5 attributes in property declaration – rand/randc, signed, static, 2/4 state, data hiding
+Language provided and User defined methods
+Developing Ethernet frame and APB Tx class
+new constructor
+randomize, pre_randomize, post_randomize
+User defined methods – print, copy, compare, pack, unpack
+Encapsulation – Data hiding, local, protected, public
+Inheritance
+Ethernet frame generation example to learn OOP
+Polymorphism – real life usecases
+this, super
+Class forward declaration
+Multiple levels of inheritance
+Abstract class
+Parameterized classes
+Difference from Verilog parameterization
+Parameterization with inheritance – 4 combinations
+Parameterized classes for testbench development
+Static properties and methods
+Interface class
+Constant class property
+Scope resolution operator
+Nested class
+Variable scope
+Object copying – copy by handle, shallow copy, deep copy
+$cast – static and dynamic casting
+Advanced Data types
+Data types – Chandle, event, typedef, struct, union, enum
+Using struct data type for medals tally sorting example
+Typedef for defining complex data types
+Using complex data types in scoreboard development
+Fork join, Inter process synchronization
+Labeling
+Fork join – join_any, join, join_none
+Nested fork
+Labeling fork
+Process, process states
+Inter process synchronization
+IPS constructs – mailbox, event, Semaphore
+mailbox – types, methods
+events – persistant, synchronization examples
+Semaphore – synchronization examples
+Project to learn all SV language constructs
+Project – Memory TB development covering 90% of SV language constructs
+Configurable memory TB development
+Interface – Ports, internal signals, clocking block, modport
+using clocking block to fix design – TB synchronization issues
+Physical interface, virtual interface
+Using interface for design and TB connection
+Program
+Program significance
+How Program differs from Module
+Why Program is redundant?
+Scheduling semantics
+Scheduling semantics
+Task, Function
+Task, function – how they are different from Verilog
+Static & automatic task/functions
+System task and functions
+Constraints, Randomization
+Constraints format
+Constraints type – Simple, distribution, implication, if-else, iterative, variable ordering, soft, unique
+Inline constraints
+Constraints for queue randomization
+Constraints virtual nature
+Randomization
+randcase
+Randomization in class, module
+rand, randc
+Constrained random verification
+Directed verification
+Multiple hands on examples on Constraints and Randomization
+Chip select example using multiple inter related constraints
+new significance for randc
+Functional and code coverage
+Functional Coverage
+What is functional coverage?
+Need for functional coverage
+Where FC comes in functional verification flow?
+How to implement FC?
+Different types of FC?
+Integrating Functional coverage in Test bench
+functional coverage hierarchy
+Different types of coverpoints – simple, cross, transition
+Different types of bins – normal, illegal, ignore
+coverage calculation
+coverage options – auto_bin_max, weigth, at_least, goal, comment, name, per_instance, detect_overlap
+Listing down cover points for a design
+Instance coverage
+Cross coverage with intersect
+FC system task & Functions
+Coverage Driven Verification
+Coverage report analysis
+Cover groups with arguments
+Coverage filter using iff
+Functional coverage types in TB – transaction class coverage, register field coverage, scenario coverage
+Code coverage
+Generating code coverage
+Different types of code coverage – FSM, Conditional, Branch, Expression, Statement, Toggle
+Detailed understanding of code coverage types with examples
+Merging UCDBs, generating coverage reports
+Analyzing coverage report
+Coverage exclusion
+Assertions and Assertion based verification
+Need for assertions?
+Assertion based verification
+Types of assertions
+Immediate assertions
+Concurrent assertions
+Assertion format – antecedent, consequent
+Running assertions using questasim, debugging the assertions in waveform
+Assertion hierarchy – property, sequence, boolean expression
+##, |-> and |=> operators
+Assertion examples for clock frequency check
+Assertion with local variables
+Assertions for simple timing diagrams
+Listing down and implmeneting assertions for simple designs – Async FIFO, Interrupt controller
+DPI
+Direct Programming Interface(DPI)
+import and export of functions
+Configuration libraries, Packages, XMR
+Configuration Libraries
+Incremental compilation
+Packages – defining, importing
+XMR
+Configuration libraries, Packages, XMR
+Compiler directives & Macros
+Parameterizable macros
+VCD – value change dump
+common array methods
+Callbacks – multiple use case examples
